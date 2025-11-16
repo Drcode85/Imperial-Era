@@ -1,17 +1,15 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"name": "Great Ace",
+		"unitType": "Fighter",
+		"uniques": [
+            // TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>", "make a separate unit type somehow",
+            "[+15]% Strength bonus for [{Military} {} {Air}] units within [2] tiles",
+			"Can be earned through combat <for [Air] units>",
+            "Is part of Great Person group [Ace]",
+            "[This Unit] gets a name from the [Ace] group",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 1
+		"range": 10,
 	}
 ]
