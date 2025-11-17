@@ -3,7 +3,7 @@
 		"name": "Great Ace",
 		"unitType": "Civilian",
 		"uniques": [
-            // TODO: "[Every adjacent [{Friendly} {Water} unit] heals [100] HP <by consuming this unit>",
+            // TODO: "[Every adjacent [{Friendly} {Air} unit] heals [15] HP",
 			"[+10]% Strength bonus for [{Mobile SAM} {Anti-Aircraft Gun}] units within [2] tiles",
             "[+15]% Strength bonus for [{Military} {Air}] units within [1] tiles",
 			"Can be earned through combat <for [Air] units>",
